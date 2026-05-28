@@ -54,6 +54,10 @@ nav{
     font-size: 16px;
 }
 
+.color-page-title{
+    color: white;
+}
+
 .nav-links{
     display: flex;
     gap: 30px;
@@ -62,6 +66,7 @@ nav{
 
 .nav-links a{
     padding: 7px;
+    color: grey;
 }
 
 .nav-links a:hover{
