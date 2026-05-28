@@ -561,12 +561,32 @@ footer{
     .tech-card p{
         margin-left: 2vw;
     }
+
+    .contact-wrapper h3{
+        font-size: 70px;
+    }
+
+    .contact-wrapper p{
+        font-size: 20px;
+    }
+
+    .btn-contact{
+        font-size: 15px;
+        padding: 15px;
+    }
+
 }
 
 @media (max-width: 600px){
     .hero-title{
         width: auto;
         font-size: 70px;
+        text-align: center;
+    }
+
+    .hero-wrapper{
+        display: flex;
+        align-items: center;
     }
 
     .contact-wrapper h3{
@@ -587,7 +607,8 @@ footer{
     }
 
     .hero-subtitle{
-        font-size: 18px;
+        font-size: 22px;
+        text-align: center;
     }
 }
 
@@ -608,7 +629,7 @@ footer{
     }
 
     .contact-wrapper h3{
-        font-size: 65px;
+        font-size: 50px;
     }
 
     .contact-wrapper p{
@@ -634,7 +655,7 @@ footer{
     }
 
     .hero-subtitle{
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 
@@ -649,5 +670,28 @@ footer{
 
     footer{
         text-align: center;
+    }
+}
+
+@media (max-height: 1080px){
+    .code-card{
+        bottom: 130px;
+    }
+}
+@media (max-height: 1000px){
+    .code-card{
+        bottom: 130px;
+    }
+}
+
+@media (max-height: 900px){
+    .code-card{
+        bottom: 70px;
+    }
+}
+
+@media (max-height: 800px){
+    .code-card{
+        bottom: 30px;
     }
 }
